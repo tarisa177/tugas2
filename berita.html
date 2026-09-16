@@ -1,104 +1,271 @@
 <!DOCTYPE html>
 <html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ITERA - Berita</title>
 
-<style>
+    <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
         }
+
         header {
             background-color: #004080;
             color: white;
             padding: 20px;
             text-align: center;
         }
+
         nav {
             background-color: #e0e0e0;
             padding: 10px;
             text-align: center;
         }
+
         nav a {
             margin: 0 15px;
             text-decoration: none;
             color: #004080;
         }
+
         main {
             padding: 20px;
         }
+
         article {
             border-bottom: 1px solid #ccc;
             margin-bottom: 20px;
             padding-bottom: 20px;
         }
+
+        figure {
+            text-align: center;
+        }
+
+        figure img {
+            max-width: 200px;
+        }
+
+        aside {
+            background-color: #f0f0f0;
+            padding: 15px;
+            margin-top: 20px;
+        }
+
         footer {
             background-color: #004080;
             color: white;
             text-align: center;
             padding: 10px;
             width: 100%;
-            bottom: 0;
         }
     </style>
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
         <img src="images/logoitera.png" alt="Logo ITERA" width="100">
+
         <h1>Berita ITERA</h1>
+
         <p>Informasi dan artikel seputar kegiatan ITERA</p>
     </header>
 
+
+    <!-- NAVIGASI -->
     <nav aria-label="Navigasi utama">
         <a href="index.html">Beranda</a> |
         <a href="berita.html">Berita</a>
     </nav>
 
+
+    <!-- KONTEN UTAMA -->
     <main>
+
         <section>
             <h2>Artikel Berita</h2>
 
             <article>
+
+                <!-- HEADER ARTIKEL -->
                 <header>
-                    <h3>Kegiatan Akademik dan Teknologi di ITERA</h3>
-                    <p><time datetime="2026-09-15">15 September 2026</time></p>
+                    <h3>
+                        Kegiatan Akademik dan Teknologi di ITERA
+                    </h3>
+
+                    <p>
+                        Dipublikasikan pada
+                        <time datetime="2026-09-15">
+                            15 September 2026
+                        </time>
+                    </p>
                 </header>
 
+
+                <!-- GAMBAR ARTIKEL -->
+                <figure>
+                    <img src="images/logoitera.png"
+                         alt="Logo Institut Teknologi Sumatera">
+
+                    <figcaption>
+                        Institut Teknologi Sumatera (ITERA)
+                    </figcaption>
+                </figure>
+
+
+                <!-- PEMBUKA BERITA -->
                 <p>
-                    Institut Teknologi Sumatera terus mendorong kegiatan akademik
-                    dan pengembangan teknologi sebagai bagian dari lingkungan pendidikan.
+                    Institut Teknologi Sumatera terus mengembangkan lingkungan
+                    akademik yang mendukung proses pembelajaran dan pengembangan
+                    ilmu pengetahuan. Kegiatan akademik menjadi salah satu bagian
+                    penting dalam membantu mahasiswa mengembangkan pengetahuan
+                    dan keterampilan.
                 </p>
 
-                <h4>Pengembangan Pengetahuan</h4>
                 <p>
-                    Mahasiswa dapat mengembangkan kemampuan melalui pembelajaran,
-                    kegiatan organisasi, penelitian, dan berbagai aktivitas akademik.
+                    Selain kegiatan pembelajaran di kelas, mahasiswa dapat
+                    mengikuti berbagai kegiatan seperti penelitian, organisasi,
+                    diskusi, praktikum, dan kegiatan kemahasiswaan lainnya.
+                    Berbagai aktivitas tersebut dapat memberikan pengalaman
+                    tambahan selama menjalani pendidikan di perguruan tinggi.
                 </p>
 
-                <h5>Peran Mahasiswa</h5>
-                <p>
-                    Mahasiswa berperan aktif dalam proses belajar dan pengembangan
-                    keterampilan yang bermanfaat bagi masyarakat.
-                </p>
 
-                <h6>Penutup</h6>
-                <p>
-                    Informasi pada halaman ini merupakan artikel contoh untuk memenuhi
-                    struktur semantik HTML pada tugas.
-                </p>
+                <!-- BAGIAN PERTAMA -->
+                <section>
+                    <h4>Pengembangan Pengetahuan</h4>
 
+                    <p>
+                        Proses pembelajaran memberikan kesempatan kepada mahasiswa
+                        untuk memahami berbagai materi yang berkaitan dengan bidang
+                        studinya. Pengetahuan tersebut dapat dikembangkan melalui
+                        tugas, praktikum, penelitian, dan kegiatan akademik lainnya.
+                    </p>
+
+                    <p>
+                        Dengan mengikuti kegiatan akademik secara aktif, mahasiswa
+                        dapat melatih kemampuan berpikir secara sistematis,
+                        menyelesaikan masalah, dan mencari informasi yang
+                        dibutuhkan dalam proses pembelajaran.
+                    </p>
+                </section>
+
+
+                <!-- BAGIAN KEDUA -->
+                <section>
+                    <h4>Pemanfaatan Teknologi</h4>
+
+                    <p>
+                        Teknologi juga menjadi bagian yang tidak terpisahkan dari
+                        kegiatan pendidikan. Mahasiswa dapat menggunakan teknologi
+                        untuk mencari informasi, mengolah data, membuat tugas,
+                        serta mengembangkan berbagai proyek.
+                    </p>
+
+                    <p>
+                        Pemanfaatan teknologi perlu dilakukan secara bertanggung
+                        jawab. Mahasiswa perlu memahami informasi yang diperoleh
+                        dan menggunakan teknologi sebagai alat untuk membantu
+                        proses belajar.
+                    </p>
+                </section>
+
+
+                <!-- BAGIAN KETIGA -->
+                <section>
+                    <h4>Peran Mahasiswa</h4>
+
+                    <p>
+                        Mahasiswa memiliki peran dalam menciptakan lingkungan
+                        akademik yang aktif. Keaktifan tersebut dapat dilakukan
+                        melalui kegiatan pembelajaran, organisasi, penelitian,
+                        diskusi, maupun kegiatan sosial.
+                    </p>
+
+                    <p>
+                        Melalui berbagai kegiatan tersebut, mahasiswa dapat
+                        mengembangkan kemampuan komunikasi, kerja sama,
+                        kreativitas, dan tanggung jawab.
+                    </p>
+                </section>
+
+
+                <!-- BAGIAN KEEMPAT -->
+                <section>
+                    <h4>Harapan Pengembangan Akademik</h4>
+
+                    <p>
+                        Pengembangan kegiatan akademik dan pemanfaatan teknologi
+                        diharapkan dapat memberikan pengalaman belajar yang lebih
+                        luas bagi mahasiswa. Lingkungan akademik yang aktif juga
+                        dapat membantu mahasiswa mengembangkan kemampuan sesuai
+                        dengan bidang yang dipelajari.
+                    </p>
+                </section>
+
+
+                <!-- PENUTUP -->
+                <section>
+                    <h4>Penutup</h4>
+
+                    <p>
+                        Pendidikan dan teknologi merupakan bagian penting dalam
+                        perkembangan lingkungan akademik. Dengan memanfaatkan
+                        berbagai kesempatan belajar, mahasiswa dapat terus
+                        mengembangkan pengetahuan dan keterampilannya.
+                    </p>
+                </section>
+
+
+                <!-- FOOTER ARTIKEL -->
                 <footer>
-                    <p>Kategori: Pendidikan dan Teknologi</p>
+                    <p>
+                        Kategori: Pendidikan dan Teknologi
+                    </p>
+
+                    <p>
+                        Penulis: Mahasiswa ITERA
+                    </p>
                 </footer>
+
             </article>
         </section>
+
+
+        <!-- ASIDE -->
+        <aside>
+            <h2>Informasi Singkat</h2>
+
+            <p>
+                Institut Teknologi Sumatera atau ITERA merupakan perguruan tinggi
+                yang berfokus pada pendidikan dan pengembangan ilmu pengetahuan
+                serta teknologi.
+            </p>
+
+            <h3>Topik Terkait</h3>
+
+            <ul>
+                <li>Pendidikan</li>
+                <li>Teknologi</li>
+                <li>Kegiatan Mahasiswa</li>
+                <li>Kegiatan Akademik</li>
+            </ul>
+        </aside>
+
     </main>
 
+
+    <!-- FOOTER WEBSITE -->
     <footer>
         <p>Informatika ITERA &copy; 2025</p>
     </footer>
+
 </body>
+
 </html>
